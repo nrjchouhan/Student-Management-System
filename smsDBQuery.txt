@@ -1,0 +1,8 @@
+>create database student;
+
+
+>create table user(uname varchar(20) primary key not null,password varchar(20),fullname varchar(45),dob date,mobno varchar(11),emailid varchar(45),address varchar(80),collagename varchar(45),coursename varchar(45),dor date);
+
+
+
+>create table marks(uname varchar(20) primary key not null,branch varchar(45),sem1 float,sem2 float,sem3 float,sem4 float,sem5 float,sem6 float,sem7 float,sem8 float);
